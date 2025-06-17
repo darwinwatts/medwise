@@ -1,5 +1,6 @@
-# MedWise: Medical Literature & Drug Interaction Analyzer with AI
-MedWise project MongoDB Track for AI in Action Google Cloud hackathon
+# MedWise 🧠💊
+MedWise is an AI-powered medical literature and drug interaction analyzer. 
+<br> On MongoDB Track for AI in Action: Google Cloud hackathon built with Google Cloud Vertex AI and MongoDB Atlas. 
 
 
 ## 💡 Project Overview
@@ -7,8 +8,15 @@ MedWise is an innovative AI-powered medical research assistant designed to empow
 
 Whether you're a busy clinician seeking the most current evidence, or a patient trying to understand a new medication, MedWise aims to provide accurate, accessible, and evidence-backed information.
 
-## ✨ Key Features
 
+## 🔍 What It Does
+- Analyze drug interactions using LLMs
+- Semantic search over PubMed-style medical articles
+- Provide evidence-based treatment suggestions
+- Offer simple explanations for patients
+
+
+## ✨ Key Features
 ### For Healthcare Professionals (Clinical Mode):
 * **Vector Search for Semantic Retrieval:** Go beyond keyword matching. Ask nuanced questions, and MedWise finds conceptually similar research papers and drug data.
 * **AI-Powered Drug Interaction Analysis:** Input patient medications and conditions; MedWise intelligently analyzes potential drug-drug and drug-condition interactions.
@@ -21,8 +29,8 @@ Whether you're a busy clinician seeking the most current evidence, or a patient 
 * **Proactive Health Literacy:** Empower users to ask informed questions and better understand their health journey.
 * **Crucial Disclaimer:** Always provides clear disclaimers that information is for educational purposes only and not a substitute for professional medical advice.
 
-## 🚀 Technology Stack
 
+## 🚀 Technology Stack
 MedWise is built on a powerful combination of cloud-native and AI technologies:
 
 * **Google Cloud AI:**
@@ -31,11 +39,24 @@ MedWise is built on a powerful combination of cloud-native and AI technologies:
 * **MongoDB Atlas:**
     * The flexible and scalable database for storing vast amounts of PubMed articles, FDA drug data, and their associated **vector embeddings**.
     * **MongoDB Atlas Vector Search:** Enables efficient and lightning-fast semantic search based on vector similarity.
-* **Backend/API:** [e.g., Python with Flask/FastAPI, deployed on Google Cloud Run/Functions]
-* **Frontend/Demo:** [e.g., Streamlit for rapid prototyping, deployed on Google Cloud Run]
+* **More:**
+- React.js (Frontend)
+- MongoDB Atlas + Vector Search
+- Google Cloud Vertex AI (Embeddings)
+- Gemini (LLM Responses)
+- Axios, Lucide Icons
+- Streamlit (optional fallback UI)
+<!-- * **Backend/API:** [e.g., Python with Flask/FastAPI, deployed on Google Cloud Run/Functions]
+* **Frontend/Demo:** [e.g., Streamlit for rapid prototyping, deployed on Google Cloud Run] -->
+
+
+<!-- ## 📁 Project Structure
+- `/src` – React code
+- `/scripts` – (Optional) Backend/embedding/data setup scripts
+-->
+
 
 ## 🛠️ Setup & Local Development
-
 To get MedWise running locally or understand its architecture:
 
 1.  **Clone the Repository:**
@@ -65,8 +86,8 @@ To get MedWise running locally or understand its architecture:
     * `streamlit run app.py`
     * Access the app in your browser at `http://localhost:8501` (or your deployed URL).
 
-## 📊 Demo Walkthrough
 
+## 📊 Demo Walkthrough
 *(The demo video and explaination for judges transcript)
 
 1.  **Clinical Mode - Query for Latest Treatments:**
@@ -84,6 +105,11 @@ To get MedWise running locally or understand its architecture:
     * Input a common question: "Explain 'hypertension' in simple terms, like you're talking to a friend."
     * See MedWise (powered by Gemini) rephrase complex medical definitions into understandable language, along with the crucial medical disclaimer.
 
+<!-- - [Live Demo (if applicable)](https://your-app-url.com)
+- [Demo Slides](https://link-to-your-slides) -->
+- [Devpost Submission](https://devpost.com/software/medwise)
+
+
 ## 🤝 Contributing
 While this is a solo hackathon project, future contributions would be welcome!
 
@@ -94,3 +120,7 @@ While this is a solo hackathon project, future contributions would be welcome!
 * **Multi-Modal Inputs:** Support image/chart analysis in medical papers.
 * **Integration with EMR/EHR Systems:** (Complex, long-term) Seamlessly connect with electronic health records for personalized patient context.
 * **Personalized Learning Paths:** For healthcare professionals, suggest learning modules based on their queries.
+
+
+## 📜 License
+This project is licensed under the MIT License.
