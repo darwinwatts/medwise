@@ -1,5 +1,4 @@
-# MedWise: Medical Literature & Drug Interaction Analyzer
-## supported by AI
+# MedWise: Medical Literature & Drug Interaction Analyzer with AI
 MedWise project MongoDB Track for AI in Action Google Cloud hackathon
 
 
