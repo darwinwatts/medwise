@@ -61,7 +61,7 @@ To get MedWise running locally or understand its architecture:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [Your GitHub Repo URL]
+    git clone https://github.com/darwinwatts/medwise
     cd medwise
     ```
 2.  **Google Cloud Setup:**
